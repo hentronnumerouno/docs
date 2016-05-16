@@ -70,12 +70,13 @@ contributor:
 		mktemp: failed to create directory via template '/var/lock/apache2.XXXXXXXXXX': No such file or 		directory
 		chmod: missing operand after '755'
 		Try 'chmod --help' for more information.
+	```
+
+Try running:
+```
+	sudo mkdir /run/lock
 ```
 
-    Try this:
-    
-`	sudo mkdir /run/lock
-`
 2. If you try to ssh into your server and that doesn't work, try this:
 
 ```
